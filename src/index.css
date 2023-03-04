@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+   scroll-padding-top: 74px;
+   scroll-behavior: smooth;
+}
+
+@layer components {
+   .btn-hover {
+      @apply hover:text-indigo-400 hover:border-indigo-400;
+   }
+}
