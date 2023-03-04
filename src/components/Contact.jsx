@@ -15,10 +15,11 @@ export default function Contact() {
             <form
                name="contact"
                method="POST"
-               action="/success.html"
                data-netlify="true"
                className="flex flex-col mx-auto gap-y-7 md:w-7/12 lg:w-9/12 xl:w-5/12"
             >
+               <input type="hidden" name="form-name" value="contact" />
+
                <div className="flex">
                   <div className="w-1/2">
                      <input
