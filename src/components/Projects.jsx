@@ -2,6 +2,7 @@ import React from "react";
 import Todo from "../images/Todo.jpg";
 import MemeGenerator from "../images/Meme.jpg";
 import Movie from "../images/Movie.jpg";
+import Bacefook from "../images/Bacefook.jpg";
 
 export default function Projects() {
    return (
@@ -109,6 +110,32 @@ export default function Projects() {
                      <a
                         className="px-4 py-2 text-sm font-semibold border rounded-lg dark:hover:text-cyan-200 dark:hover:border-cyan-200 dark:border-stone-100 btn-hover border-zinc-600"
                         href="https://github.com/jmpark95/4th-project-Movie-app"
+                        target="_blank"
+                     >
+                        Github
+                     </a>
+                  </p>
+               </div>
+               <div className="flex flex-col justify-self-center gap-y-2 w-52 xl:w-64">
+                  <h4 className="text-lg font-bold text-center">
+                     Social Network App "BaceFook"
+                  </h4>
+                  <img
+                     className="w-full h-48 mx-auto"
+                     src={Bacefook}
+                     alt="Bacefook project image"
+                  />
+                  <p className="flex justify-between font-medium text-center justify-self-center">
+                     <a
+                        className="px-4 py-2 text-sm font-semibold border rounded-lg dark:hover:text-cyan-200 dark:hover:border-cyan-200 btn-hover border-zinc-600 dark:border-stone-100"
+                        href="https://minpark-bacefook.up.railway.app/"
+                        target="_blank"
+                     >
+                        View Live
+                     </a>
+                     <a
+                        className="px-4 py-2 text-sm font-semibold border rounded-lg dark:hover:text-cyan-200 dark:hover:border-cyan-200 dark:border-stone-100 btn-hover border-zinc-600"
+                        href="https://github.com/jmpark95/5th-project-Social-Network"
                         target="_blank"
                      >
                         Github
